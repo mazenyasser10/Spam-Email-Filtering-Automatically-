@@ -65,9 +65,68 @@ After clicking the check button, the system displays the classification result a
 - `spam`
 - `ham`
 
-## Sample Output
+## Screenshots / Results
 
-Example results from the GUI:
+### Spam Email Detection Result
 
-```text
-Result: spam
+The system correctly classifies a promotional email as spam.
+
+<img width="542" height="456" alt="image" src="https://github.com/user-attachments/assets/870a7344-80c0-4a16-b8d4-2a3293342397" />
+
+
+### Ham Email Detection Result
+
+The system correctly classifies a normal message as ham.
+
+<img width="524" height="454" alt="image" src="https://github.com/user-attachments/assets/7afe7adf-a98b-43d2-b53d-40a49663d646" />
+
+## Advantages
+
+- Simple and easy to use
+- Fast prediction
+- Suitable for text classification
+- Uses a lightweight machine learning model
+- Helps improve email management and security
+
+## Limitations
+
+- The model depends on the quality and size of the training dataset.
+- It works best with English email text.
+- CountVectorizer counts word occurrences but does not fully understand the full meaning of the sentence.
+- The model may miss spam emails that use hidden, tricky, or unusual language.
+
+## Future Improvements
+
+- Use a larger dataset to improve accuracy.
+- Add more preprocessing techniques.
+- Try other classifiers such as Logistic Regression or XGBoost.
+- Add model evaluation metrics such as accuracy, precision, recall, and F1-score.
+- Improve the GUI design.
+- Save and load the trained model automatically.
+
+## Team Members
+
+- Mazen Yasser
+- Marwan Ehab
+- Jasmine Ali
+- Sandy Atef
+
+## Task Assignment
+
+- Mazen Yasser — Implementation and Model Design
+- Sandy Atef — Data Preparation and Preprocessing
+- Jasmine Ali — Evaluation and Analysis
+- Marwan Ehab — Documentation and Report Formatting
+
+## Course Information
+
+**Course:** CSE263 - Machine Learning and Pattern Recognition  
+**Department:** Computer Systems Engineering  
+**Term:** Fall 2025  
+**University:** MSA University / University of Greenwich  
+
+## Conclusion
+
+The Spam Email Filter project demonstrates how machine learning can be used to solve a practical classification problem.
+
+By using text vectorization and Multinomial Naive Bayes, the system can analyze email text and predict whether it is spam or ham through a simple GUI.
